@@ -1,0 +1,113 @@
+/* https://jgthms.com/web-design-in-4-minutes/ */
+
+@import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  margin: 0 auto;
+  max-width: 60em;
+  line-height: 1.5;
+  padding: 1.5em 1em;  
+}
+
+figure img {
+  max-width: 100%;
+}
+
+.thumbnail {
+  max-width: 100%;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.refinery {
+  margin:  0;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+h1,
+h2,
+strong {
+  color: #111;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+  font-weight: 600;
+}
+
+.centered p {
+  text-align: center;
+}
+
+.centered img{
+  display: block;
+  margin: 0 auto;
+}
+
+header h1{
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+a {
+  color: #e81c4f;
+  text-decoration: none;  
+}
+
+.spaced-links {
+  padding-left: 0.05em;
+  padding-right: 0.05em;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+details {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+details summary { 
+  cursor: pointer;
+}
+
+blockquote {
+  text-align: justify;
+  text-justify: inter-word;  
+  font-size:  1.0rem;
+  margin: 0.5em 5px 1.5em 5px;
+  padding: 0.5em 10px;  
+  border-left: 2px solid #ccc;
+}
