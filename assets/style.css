@@ -9,7 +9,14 @@ body {
   margin: 0 auto;
   max-width: 60em;
   line-height: 1.5;
-  padding: 1.5em 1em;  
+  padding: 1.5em 1em;
+  background: #FFFFFE;
+}
+
+.logo{
+  float: left;
+  display: block;
+  margin-right: 80px;
 }
 
 figure img {
